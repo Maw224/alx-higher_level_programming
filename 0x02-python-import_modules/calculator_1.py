@@ -11,6 +11,7 @@ def add(a, b):
     """
     return a + b
 
+
 def sub(a, b):
     """ Function sub
     Args:
@@ -21,6 +22,7 @@ def sub(a, b):
     """
     return a - b
 
+
 def mul(a, b):
     """ Function mul
     Args:
@@ -30,6 +32,7 @@ def mul(a, b):
         a * b
     """
     return a * b
+
 
 def div(a, b):
     """ Function div
