@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def best_score(a):
-    if len(a) == 0 or not isinstnace(a, dict):
+    if not isinstance(a, dict) or len(a) == 0:
         return None
     k = list(a.keys())[0]
     big = a[k]
